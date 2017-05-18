@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>getMovieList</key>
+	<dict>
+		<key>movieList</key>
+		<array>
+			<dict>
+				<key>movieId</key>
+				<integer>123</integer>
+				<key>movieName</key>
+				<string>Avatar</string>
+			</dict>
+			<dict>
+				<key>movieId</key>
+				<integer>789</integer>
+				<key>movieName</key>
+				<string>WarCarft</string>
+			</dict>
+		</array>
+	</dict>
+	<key>getMovieDetail</key>
+	<dict>
+		<key>movieId</key>
+		<integer>789</integer>
+		<key>movieName</key>
+		<string>WarCarft</string>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>getCinemaDetail</key>
+	<dict>
+		<key>Expires</key>
+		<integer>300</integer>
+		<key>NetType</key>
+		<string>get</string>
+		<key>Url</key>
+		<string>cinema/getcinemadetail</string>
+	</dict>
+	<key>getMovieDetail</key>
+	<dict>
+		<key>Expires</key>
+		<integer>300</integer>
+		<key>NetType</key>
+		<string>get</string>
+		<key>Url</key>
+		<string>movie/getmoviedetail</string>
+	</dict>
+	<key>getMovieList</key>
+	<dict>
+		<key>Expires</key>
+		<integer>300</integer>
+		<key>NetType</key>
+		<string>get</string>
+		<key>Url</key>
+		<string>movie/getMovieList</string>
+	</dict>
+	<key>registerUser</key>
+	<dict>
+		<key>Expires</key>
+		<integer>0</integer>
+		<key>NetType</key>
+		<string>post</string>
+		<key>Url</key>
+		<string>others/register</string>
+	</dict>
+</dict>
+</plist>
